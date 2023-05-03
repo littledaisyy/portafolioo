@@ -18,37 +18,42 @@ body {
 /*DESCRIPCION Y FOTO*/
 h1 {
   text-align: center;
-
+  color: rgb(70, 94, 166);
 }
 
 #introduccion {
   height: auto;
 
 }
+.color {
+  color: rgb(155, 78, 173);
+}
 
+p{
+font-size:larg;
+}
 .descripcion::first-letter {
   text-align: left;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: bold;
+  color: rgb(155, 78, 173);
 }
 
 .natalia {
   display: flex;
-  /*height: auto;*/
+  height: auto;
   width: cover;
-  transition: 1s;
 }
 .codigo{
   height: 6rem;
 }
 /*telefono*/
-@media (min-width:100px) and (max-width:991px) {
+@media (min-width:200px) and (max-width:991px) {
   .lila {
     height: auto;
-    background-image: url(../assets/lila.png);
+    background-image: url(../assets/danzakuduro.png);
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 1s;
   }
 
   .botones {
@@ -90,10 +95,9 @@ h1 {
 @media   (min-width:991.5px) {
   .lila {
     height: auto;
-    background-image: url(../assets/lila.png);
+    background-image: url(../assets/crecia.png);
     background-size: 100% 90%;
     background-repeat: no-repeat;
-    transition: 1s;
   }
 
   .botones {
@@ -114,6 +118,7 @@ h1 {
 #skills {
   text-align: center;
   font-size: 40px;
+  color: rgb(126, 126, 193);
 }
 
 
@@ -171,7 +176,10 @@ h1 {
   height: auto;
 }
 
+
 /* TERMINAN PROYECTOS*/
+
+
 .sabroso {
   height: 5rem;
 }
@@ -179,6 +187,7 @@ h1 {
 #proyectos {
   text-align: center;
   font-size: 40px;
+  color: rgb(69, 91, 166);
 }
 
 .azul {
@@ -187,11 +196,13 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.contacto {
-  color:rgb(64, 85, 147);
-
+#contacto {
+  color:rgb(187, 111, 206);
 }
 
+.subtitulo {
+  color: #000;
+}
 .red1{
   width: 4rem;
 }
@@ -216,3 +227,15 @@ margin-bottom:2rem;
   background-color: rgb(240, 215, 249);
 }
 
+.footer{
+  color: #8a69c6;
+}
+
+.btn-boton {
+  background-color: rgb(156, 131, 204);
+  color: white;
+}
+
+.regresar{
+  color: rgb(191, 80, 219);
+}
